@@ -3,32 +3,16 @@ import PropTypes from 'prop-types';
 import './button.css';
 import Icon from './Icon';
 
-/**
- * Primary UI component for user interaction
- */
-//   const  Button =({ primary, backgroundColor, size, label, ...props })=> {
-//   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
-//   return (
-//     <button
-//       type="button"
-//       className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-//       style={backgroundColor && { backgroundColor }}
-//       {...props}
-//     >
-//       {label}
-//     </button>
-//   );
-// };
 
-const Button=({variant,disableBoxShadow,disabled,startIcon,endIcon,size,color,label='Default'})=>{
+const Button = ({ variant, disableBoxShadow, disabled, startIcon, endIcon, size, color, label = 'Default' }) => {
 
   return (
-    <button className={`${variant} ${disableBoxShadow?'no-box-shadow':''} ${size} ${color}`} disabled={disabled}>
-<Icon iconName={startIcon}/>
-{
-  label
-}
-<Icon iconName={endIcon}/>
+    <button className={`${variant} ${disableBoxShadow ? 'no-box-shadow' : ''} ${size} ${color}`} disabled={disabled}>
+      <Icon iconName={startIcon} />
+      {
+        label
+      }
+      <Icon iconName={endIcon} />
     </button>
   );
 

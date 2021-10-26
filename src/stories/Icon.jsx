@@ -3,24 +3,24 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import LockIcon from "@mui/icons-material/Lock";
 import SearchIcon from "@mui/icons-material/Search";
 import VisibilityIcon from "@mui/icons-material/Visibility";
-let fontSize='18.5px';
-const Icon=({iconName})=>{
+let fontSize = '18.5px';
+const Icon = ({ iconName }) => {
 
-    switch(iconName){
+    switch (iconName) {
         case 'search':
-            return <SearchIcon sx={{fontSize:fontSize}}/>
+            return <SearchIcon sx={{ fontSize: fontSize }} />
             break;
         case 'lock':
-            return <LockIcon sx={{fontSize:fontSize}}/>
+            return <LockIcon sx={{ fontSize: fontSize }} />
             break;
         case 'visibility':
-            return <VisibilityIcon sx={{fontSize:fontSize}}/>
+            return <VisibilityIcon sx={{ fontSize: fontSize }} />
             break;
         case 'cart':
-            return <ShoppingCartIcon sx={{fontSize:fontSize}}/>
+            return <ShoppingCartIcon sx={{ fontSize: fontSize }} />
             break;
         case 'delete':
-            return <DeleteIcon sx={{fontSize:fontSize}}/>
+            return <DeleteIcon sx={{ fontSize: fontSize }} />
             break;
         default:
             return null;
