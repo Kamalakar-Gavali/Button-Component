@@ -85,8 +85,5 @@ $ npm start
 - [Marked - a markdown parser](https://github.com/chjj/marked) -->
 
 ## Contact
-
-<!-- - Website [your-website.com](https://{your-web-site-link}) -->
-<!-- - GitHub [@your-username](https://{github.com/your-usermame}) -->
--LinkedIn [Kamalakar Gavali](https://in.linkedin.com/in/kamalakar-gavali)
--Twitter [@kamalakar_g1](https://{twitter.com/kamalakar_g1})
+- LinkedIn [Kamalakar Gavali](https://in.linkedin.com/in/kamalakar-gavali)
+- Twitter [@kamalakar_g1](https://twitter.com/kamalakar_g1)
